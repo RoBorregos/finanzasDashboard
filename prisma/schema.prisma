@@ -1,0 +1,209 @@
+// Prisma schema — RoBorregos Finanzas
+//
+// Reemplaza `presupuesto_general_2026-2027.xlsm`. Ver README-finanzas.md para el
+// mapeo entre estos modelos y las hojas/fórmulas del workbook original.
+//
+// Auth: Better Auth (https://better-auth.com/docs/concepts/database)
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  // Pooled (Supavisor, puerto 6543, modo transacción) — la usa la app en runtime.
+  url      = env("DATABASE_URL")
+  // Directa (puerto 5432, modo sesión) — solo `prisma migrate` / `db push`.
+  // PgBouncer en modo transacción no soporta el DDL de larga duración que hacen
+  // las migraciones, así que Prisma necesita este canal aparte.
+  directUrl = env("DIRECT_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Enums
+// ---------------------------------------------------------------------------
+
+enum Role {
+  ADMIN // escritura total
+  MIEMBRO // miembro aceptado: lee cifras
+  EXTERNO // ajeno: sin acceso
+}
+
+enum CategoriaEvento {
+  PROYECTO_CON_RECAUDACION
+  PROYECTO_SIN_RECAUDACION
+  COMPETENCIA
+}
+
+enum TipoMovimiento {
+  INGRESO
+  EGRESO
+}
+
+// ---------------------------------------------------------------------------
+// Finanzas
+// ---------------------------------------------------------------------------
+
+/// Ejercicio fiscal, p. ej. "2026-2027". Equivale a un archivo .xlsm completo.
+model Periodo {
+  id      String   @id @default(cuid())
+  nombre  String   @unique
+  activo  Boolean  @default(false)
+  eventos Evento[]
+}
+
+/// Una hoja de evento del workbook. El bloque de encabezado (B6:J9) vive aquí.
+model Evento {
+  id        String  @id @default(cuid())
+  periodoId String
+  periodo   Periodo @relation(fields: [periodoId], references: [id], onDelete: Cascade)
+
+  nombre           String
+  slug             String
+  categoria        CategoriaEvento
+  // `inicio`/`fin` son fechas de calendario, no instantes: se guardan como
+  // `date` y no como `timestamptz` para que 2026-07-27 no se corra un día al
+  // renderizarse en America/Monterrey (UTC-6).
+  inicio           DateTime        @db.Date
+  fin              DateTime        @db.Date
+  lugar            String?
+  responsable      String? // texto libre por ahora; después será relación a User
+  impactosDirectos Int             @default(0)
+
+  movimientos Movimiento[]
+  marketing   MarketingItem[]
+
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  // Cubre además el índice del FK periodoId (es la columna líder).
+  @@unique([periodoId, slug])
+}
+
+/// Un renglón de `Ingresos_<Evento>` o `Egresos_<Evento>`.
+/// `estimado`/`real` NO se guardan: son la suma del desglose (el SUMIFS del Excel).
+model Movimiento {
+  id       String         @id @default(cuid())
+  eventoId String
+  evento   Evento         @relation(fields: [eventoId], references: [id], onDelete: Cascade)
+  tipo     TipoMovimiento
+  codigo   String // "ING-01" / "EGR-03"
+  fuente   String? // Fuente o Patrocinador
+  concepto String
+  fecha    DateTime?      @db.Date // Fecha de Recepción (ingreso) / Fecha de Compra (egreso)
+
+  desglose Desglose[]
+
+  // Columna líder eventoId ⇒ también sirve de índice del FK.
+  @@unique([eventoId, codigo])
+  // Todo dashboard separa ingresos de egresos.
+  @@index([eventoId, tipo])
+}
+
+/// `Desglose_<Evento>`: la ÚNICA superficie de captura de dinero del sistema.
+model Desglose {
+  id           String     @id @default(cuid())
+  movimientoId String
+  movimiento   Movimiento @relation(fields: [movimientoId], references: [id], onDelete: Cascade)
+
+  subCodigo String // "ING-01-002"
+  concepto  String
+
+  // Se guarda el monto ya resuelto, y también los insumos, para que la cuenta
+  // sea auditable: los usuarios piensan en cantidad × precio unitario × TC.
+  estimado   Decimal? @db.Decimal(12, 2)
+  real       Decimal? @db.Decimal(12, 2)
+  cantidad   Decimal? @db.Decimal(12, 3)
+  precioUnit Decimal? @db.Decimal(12, 2)
+  tipoCambio Decimal? @db.Decimal(12, 4)
+  nota       String?
+
+  @@unique([movimientoId, subCodigo])
+}
+
+/// `Marketing_<Evento>`: plano, sin desglose.
+model MarketingItem {
+  id       String @id @default(cuid())
+  eventoId String
+  evento   Evento @relation(fields: [eventoId], references: [id], onDelete: Cascade)
+
+  codigo              String // "MKT-01"
+  redSocial           String // Instagram, TikTok, LinkedIn...
+  concepto            String
+  vistasEstimado      Int?
+  vistasReal          Int?
+  interaccionEstimado Int?
+  interaccionReal     Int?
+
+  @@unique([eventoId, codigo])
+}
+
+// ---------------------------------------------------------------------------
+// Better Auth
+// ---------------------------------------------------------------------------
+
+model User {
+  id            String    @id
+  name          String
+  email         String
+  emailVerified Boolean   @default(false)
+  image         String?
+  // Registrado también en `user.additionalFields` de src/server/better-auth/config.ts,
+  // con `input: false` para que nadie se auto-asigne un rol en el signup.
+  role          Role      @default(EXTERNO)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @default(now()) @updatedAt
+  sessions      Session[]
+  accounts      Account[]
+
+  @@unique([email])
+  @@map("user")
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([token])
+  @@index([userId])
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@index([userId])
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @default(now()) @updatedAt
+
+  @@map("verification")
+}

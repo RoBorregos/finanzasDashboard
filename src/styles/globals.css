@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Paleta institucional: navy + oro, la misma del estado de cuenta del workbook. */
+  --color-navy-50: #f2f5fa;
+  --color-navy-100: #e2e9f4;
+  --color-navy-200: #c7d5ea;
+  --color-navy-600: #22417a;
+  --color-navy-700: #1a3161;
+  --color-navy-800: #14264c;
+  --color-navy-900: #0d1a35;
+
+  --color-oro-100: #fdf3d7;
+  --color-oro-400: #d9a93a;
+  --color-oro-500: #c19026;
+  --color-oro-600: #9c7219;
+}
+
+:root {
+  --superficie: #f6f7f9;
+}
+
+body {
+  background: var(--superficie);
+  color: var(--color-navy-900);
+}
+
+/* Celda de captura: se ve como texto normal hasta que la tocas. Es lo que hace
+   que la tabla se sienta hoja de cálculo y no formulario. */
+.celda-input {
+  @apply w-full rounded border border-transparent bg-transparent px-2 py-1 text-right tabular-nums outline-none;
+}
+.celda-input:hover:not(:disabled) {
+  @apply border-navy-200 bg-white;
+}
+.celda-input:focus {
+  @apply border-navy-600 bg-white ring-2 ring-navy-600/20;
+}
+.celda-input:disabled {
+  @apply cursor-default;
+}
+
+/* Valor derivado (el SUMIFS del Excel): se distingue de lo capturable. */
+.celda-calculada {
+  @apply cursor-default bg-navy-50/60 text-navy-700 italic;
+}
+
+@media print {
+  .no-imprimir {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  .hoja {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  @page {
+    margin: 14mm;
+    size: letter;
+  }
+}

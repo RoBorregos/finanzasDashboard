@@ -1,0 +1,2364 @@
+{
+  "periodo": "2026-2027",
+  "moneda": "MXN",
+  "eventos": [
+    {
+      "sheet": "Recolecta_Basura_Electronica",
+      "nombre": "Recolecta Basura Electrónica",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-08-26",
+      "fin": "2026-08-28",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Hans Enrique Velarde Barrón",
+      "impactosDirectos": 0,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinador",
+          "concepto": "Patrocinio por uso de nombre",
+          "fecha": null
+        }
+      ],
+      "egresos": [],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-001",
+          "concepto": "Entrada a equipo",
+          "estimado": 5000,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 2600,
+          "vistasReal": null,
+          "interaccionEstimado": 1700,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 2600,
+          "vistasReal": null,
+          "interaccionEstimado": 1700,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Tercera Historia",
+          "vistasEstimado": 2600,
+          "vistasReal": null,
+          "interaccionEstimado": 1700,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-04",
+          "redSocial": "Instagram",
+          "concepto": "Primer post ",
+          "vistasEstimado": 2700,
+          "vistasReal": null,
+          "interaccionEstimado": 850,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "Taller Impresiones 3D",
+      "nombre": "Taller Impresiones 3D",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-09-26",
+      "fin": "2026-09-26",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Hans Enrique Velarde Barrón",
+      "impactosDirectos": 0,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinador",
+          "concepto": "Patrocinio por uso de nombre",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinador",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-03",
+          "fuente": "Patrocinador",
+          "concepto": "Donativo",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Transporte",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Entrada a equipo",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Comida",
+          "estimado": 4200,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-002",
+          "concepto": "Bebidas",
+          "estimado": 1400,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-001",
+          "concepto": "Donativo empresa uso de nombre",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-002",
+          "concepto": "Donativo empresa comida",
+          "estimado": 500,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-003",
+          "concepto": "Donativo empresa bebidas",
+          "estimado": 250,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Comida",
+          "estimado": 4200,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Bebidas",
+          "estimado": 1400,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Transporte",
+          "estimado": 2015,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 1400,
+          "vistasReal": null,
+          "interaccionEstimado": 1100,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 1400,
+          "vistasReal": null,
+          "interaccionEstimado": 1100,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Primer Post",
+          "vistasEstimado": 3500,
+          "vistasReal": null,
+          "interaccionEstimado": 1350,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "Taller CNC cortadora laser",
+      "nombre": "Taller CNC, Cortadora Láser",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-11-21",
+      "fin": "2026-11-21",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Hans Enrique Velarde Barrón",
+      "impactosDirectos": 0,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinador",
+          "concepto": "Patrocinio por uso de nombre",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinador",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-03",
+          "fuente": "Patrocinador",
+          "concepto": "Donativo",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Transporte",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Entrada a equipo",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Comida",
+          "estimado": 4200,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-002",
+          "concepto": "Bebidas",
+          "estimado": 1400,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-001",
+          "concepto": "Donativo empresa uso de nombre",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-002",
+          "concepto": "Donativo empresa comida",
+          "estimado": 500,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-003",
+          "concepto": "Donativo empresa bebidas",
+          "estimado": 250,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Comida",
+          "estimado": 4200,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Bebidas",
+          "estimado": 1400,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Transporte",
+          "estimado": 2015,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 1990,
+          "vistasReal": null,
+          "interaccionEstimado": 1230,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 1990,
+          "vistasReal": null,
+          "interaccionEstimado": 1230,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Primer Post",
+          "vistasEstimado": 2700,
+          "vistasReal": null,
+          "interaccionEstimado": 900,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "Hackdays",
+      "nombre": "Hackdays",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-11-07",
+      "fin": "2026-11-07",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Hans Enrique Velarde Barrón",
+      "impactosDirectos": 150,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinio",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinio",
+          "concepto": "Premios",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-03",
+          "fuente": "Patrocinio",
+          "concepto": "Merch",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-04",
+          "fuente": "Patrocinio",
+          "concepto": "Donativo",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximación",
+          "concepto": "Comestibles",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Apoximación",
+          "concepto": "Premios",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Aproximación",
+          "concepto": "Merch",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Comida",
+          "estimado": 25000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Bebidas",
+          "estimado": 12000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-003",
+          "concepto": "Snacks",
+          "estimado": 9000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Premios 1er lugar",
+          "estimado": 20000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-002",
+          "concepto": "Premios 2do lugar",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-003",
+          "concepto": "Premios 3er lugar",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Kit de bienvenida",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Comida",
+          "estimado": 25000,
+          "real": null
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-002",
+          "concepto": "Bebidas",
+          "estimado": 12000,
+          "real": null
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-003",
+          "concepto": "Snacks",
+          "estimado": 9000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Premios 1er lugar",
+          "estimado": 20000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-002",
+          "concepto": "Premios 2do lugar",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-003",
+          "concepto": "Premios 3er lugar",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-001",
+          "concepto": "Merch",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "ING-04",
+          "subCodigo": "ING-04-001",
+          "concepto": "Donativo empresa de comida",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "ING-04",
+          "subCodigo": "ING-04-002",
+          "concepto": "Donativo empresa de snacks y bebidas",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "ING-04",
+          "subCodigo": "ING-04-003",
+          "concepto": "Donativo empresa premio 1 lugar",
+          "estimado": 3000,
+          "real": null
+        },
+        {
+          "codigo": "ING-04",
+          "subCodigo": "ING-04-004",
+          "concepto": "Donativo empresa premio 2 lugar",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-04",
+          "subCodigo": "ING-04-005",
+          "concepto": "Donativo empresa premio 3 lugar",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-04",
+          "subCodigo": "ING-04-006",
+          "concepto": "Donativo empresa merch",
+          "estimado": 1000,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 1660,
+          "vistasReal": null,
+          "interaccionEstimado": 1000,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 1800,
+          "vistasReal": null,
+          "interaccionEstimado": 1200,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Tercera Historia",
+          "vistasEstimado": 1660,
+          "vistasReal": null,
+          "interaccionEstimado": 1000,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-04",
+          "redSocial": "Instagram",
+          "concepto": "Cuarta Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": null,
+          "interaccionEstimado": 1500,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-05",
+          "redSocial": "Instagram",
+          "concepto": "Primer Post",
+          "vistasEstimado": 3700,
+          "vistasReal": null,
+          "interaccionEstimado": 2100,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "RoBorregos Day",
+      "nombre": "RoBorregos Day",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-11-25",
+      "fin": "2026-11-25",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Ana Karen Ramirez Juarez",
+      "impactosDirectos": 40,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinio",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinio",
+          "concepto": "Donación patrocinio",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximación",
+          "concepto": "Comida",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Patrocinio Comida",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-002",
+          "concepto": "Patrocinio Bebida",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Donativo empresa comida",
+          "estimado": 250,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Donativo empresa bebida",
+          "estimado": 250,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Snacks",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Bebidas",
+          "estimado": 1000,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 1980,
+          "vistasReal": null,
+          "interaccionEstimado": 1400,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": null,
+          "interaccionEstimado": 1500,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Tercera Historia",
+          "vistasEstimado": 1980,
+          "vistasReal": null,
+          "interaccionEstimado": 1400,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-04",
+          "redSocial": "Instagram",
+          "concepto": "Primer Post",
+          "vistasEstimado": 3600,
+          "vistasReal": null,
+          "interaccionEstimado": 1220,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "TechTalks",
+      "nombre": "Tech Talks",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-09-28",
+      "fin": "2026-09-28",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Ana Karen Ramirez Juarez",
+      "impactosDirectos": 100,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinio",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinio",
+          "concepto": "Donación patrocinio",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximación",
+          "concepto": "Comida",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Patrocinio Comida",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-002",
+          "concepto": "Patrocinio Bebida",
+          "estimado": 4000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Donativo empresa comida",
+          "estimado": 500,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Donativo empresa bebida",
+          "estimado": 500,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Snacks",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Bebidas",
+          "estimado": 4000,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 1340,
+          "vistasReal": null,
+          "interaccionEstimado": 1000,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 1400,
+          "vistasReal": null,
+          "interaccionEstimado": 1100,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Tercera Historia",
+          "vistasEstimado": 1300,
+          "vistasReal": null,
+          "interaccionEstimado": 1000,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-04",
+          "redSocial": "Instagram",
+          "concepto": "Primer Post",
+          "vistasEstimado": 4450,
+          "vistasReal": null,
+          "interaccionEstimado": 1300,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "Evento networking",
+      "nombre": "Evento Networking",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-09-25",
+      "fin": "2026-09-25",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Ana Karen Ramirez Juarez",
+      "impactosDirectos": 60,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinio",
+          "concepto": "Comida",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinio",
+          "concepto": "Donación patrocinio",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximación",
+          "concepto": "Comida",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Patrocinio Comida",
+          "estimado": 2000,
+          "real": null
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-002",
+          "concepto": "Patrocinio Bebida",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Donativo empresa comida",
+          "estimado": 350,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Donativo empresa bebida",
+          "estimado": 250,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Snacks",
+          "estimado": 2000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Bebidas",
+          "estimado": 1000,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 1910,
+          "vistasReal": null,
+          "interaccionEstimado": 1320,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": null,
+          "interaccionEstimado": 1400,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Tercera Historia",
+          "vistasEstimado": 1910,
+          "vistasReal": null,
+          "interaccionEstimado": 1320,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-04",
+          "redSocial": "Instagram",
+          "concepto": "Primer Post",
+          "vistasEstimado": 3500,
+          "vistasReal": null,
+          "interaccionEstimado": 1200,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "Candidates",
+      "nombre": "Candidates",
+      "categoria": "Proyecto sin recaudación",
+      "inicio": "2026-08-26",
+      "fin": "2026-08-28",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Ángela Camila Tite Haro",
+      "impactosDirectos": 250,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Patrocinio",
+          "concepto": "Patrocinio para Talleres de Capacitación y uso de nombre",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinio",
+          "concepto": "Kits iniciales",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-03",
+          "fuente": "Patrocinio",
+          "concepto": "Premios",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-04",
+          "fuente": "Patrocinio",
+          "concepto": "Merch",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-05",
+          "fuente": "Patrocinio",
+          "concepto": "Donativos",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-06",
+          "fuente": "Patrocinio",
+          "concepto": "Comida",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximación",
+          "concepto": "Kits iniciales",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Aproximación",
+          "concepto": "Premios",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Aproximación",
+          "concepto": "Merch",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-04",
+          "fuente": "Aproximación",
+          "concepto": "Comida",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Taller de capacitación 1",
+          "estimado": 2500,
+          "real": null
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-002",
+          "concepto": "Taller de capacitación 2",
+          "estimado": 2500,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Kit inicial",
+          "estimado": 40983.2,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-001",
+          "concepto": "Premio 1er lugar",
+          "estimado": 20000,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-002",
+          "concepto": "Premio 2do lugar",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "ING-03",
+          "subCodigo": "ING-03-003",
+          "concepto": "Premio 3er lugar",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "ING-04",
+          "subCodigo": "ING-04-001",
+          "concepto": "Merch",
+          "estimado": 15000,
+          "real": null
+        },
+        {
+          "codigo": "ING-05",
+          "subCodigo": "ING-05-001",
+          "concepto": "Donativo empresa de kits",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "ING-05",
+          "subCodigo": "ING-05-002",
+          "concepto": "Donativo empresa premios 1er lugar",
+          "estimado": 3000,
+          "real": null
+        },
+        {
+          "codigo": "ING-05",
+          "subCodigo": "ING-05-003",
+          "concepto": "Donativo empresa premios 2do lugar",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-05",
+          "subCodigo": "ING-05-004",
+          "concepto": "Donativo empresa premios 3er lugar",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-05",
+          "subCodigo": "ING-05-005",
+          "concepto": "Donativo empresa merch",
+          "estimado": 1000,
+          "real": null
+        },
+        {
+          "codigo": "ING-05",
+          "subCodigo": "ING-05-006",
+          "concepto": "Donativo empresa comida",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "ING-05",
+          "subCodigo": "ING-05-006",
+          "concepto": "Donativo empresa comida y bebida",
+          "estimado": 3000,
+          "real": null
+        },
+        {
+          "codigo": "ING-06",
+          "subCodigo": "ING-06-001",
+          "concepto": "Comida",
+          "estimado": 30000,
+          "real": null
+        },
+        {
+          "codigo": "ING-06",
+          "subCodigo": "ING-06-002",
+          "concepto": "Bebidas",
+          "estimado": 14000,
+          "real": null
+        },
+        {
+          "codigo": "ING-06",
+          "subCodigo": "ING-06-003",
+          "concepto": "Snacks",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-000",
+          "concepto": "40 Kits",
+          "estimado": 0,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Placa de Desarrollo",
+          "estimado": 5568,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Protoboard",
+          "estimado": 3248,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-003",
+          "concepto": "Cables Dupoint",
+          "estimado": 1995.2,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-004",
+          "concepto": "Sensor Ultrasonico",
+          "estimado": 1670,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-005",
+          "concepto": "Relay",
+          "estimado": 603.2,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-006",
+          "concepto": "Microservo",
+          "estimado": 4361.6,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-007",
+          "concepto": "Resistencias 330",
+          "estimado": 210,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-008",
+          "concepto": "Leds",
+          "estimado": 278,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-009",
+          "concepto": "Push Button",
+          "estimado": 185.6,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-010",
+          "concepto": "Potenciometro 10k",
+          "estimado": 287.6,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-011",
+          "concepto": "Cable USB/USB-B",
+          "estimado": 974.4,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-012",
+          "concepto": "Powerbank",
+          "estimado": 7960,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-013",
+          "concepto": "Motor reductor",
+          "estimado": 6124.8,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-014",
+          "concepto": "Puente H",
+          "estimado": 7516.799999999999,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Premio 1er lugar",
+          "estimado": 20000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-002",
+          "concepto": "Premio 2do lugar",
+          "estimado": 10000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-003",
+          "concepto": "Premio 3er lugar",
+          "estimado": 5000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Merch",
+          "estimado": 15000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-04",
+          "subCodigo": "EGR-04-001",
+          "concepto": "Comida",
+          "estimado": 30000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-04",
+          "subCodigo": "EGR-04-002",
+          "concepto": "Bebidas",
+          "estimado": 14000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-04",
+          "subCodigo": "EGR-04-003",
+          "concepto": "Snacks",
+          "estimado": 10000,
+          "real": null
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": null,
+          "interaccionEstimado": 1500,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 2200,
+          "vistasReal": null,
+          "interaccionEstimado": 1600,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Tercera Historia",
+          "vistasEstimado": 1800,
+          "vistasReal": null,
+          "interaccionEstimado": 1500,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-04",
+          "redSocial": "Instagram",
+          "concepto": "Cuarta Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": null,
+          "interaccionEstimado": 1650,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-05",
+          "redSocial": "Instagram",
+          "concepto": "Quinta Historia",
+          "vistasEstimado": 2300,
+          "vistasReal": null,
+          "interaccionEstimado": 1500,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-06",
+          "redSocial": "Instagram",
+          "concepto": "Sexta Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": null,
+          "interaccionEstimado": 1500,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-07",
+          "redSocial": "Instagram",
+          "concepto": "Septima Historia",
+          "vistasEstimado": 2500,
+          "vistasReal": null,
+          "interaccionEstimado": 1800,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-08",
+          "redSocial": "Instagram",
+          "concepto": "Primer Post",
+          "vistasEstimado": 3600,
+          "vistasReal": null,
+          "interaccionEstimado": 2000,
+          "interaccionReal": null
+        },
+        {
+          "codigo": "MKT-09",
+          "redSocial": "Instagram",
+          "concepto": "Segundo Post",
+          "vistasEstimado": 3600,
+          "vistasReal": null,
+          "interaccionEstimado": 2000,
+          "interaccionReal": null
+        }
+      ]
+    },
+    {
+      "sheet": "RoboCamp",
+      "nombre": "RoboCamp",
+      "categoria": "Proyecto con recaudación",
+      "inicio": "2026-07-27",
+      "fin": "2026-08-07",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Hans Enrique Velarde Barrón",
+      "impactosDirectos": 51,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Cuota de Alumnos",
+          "concepto": "Aportación por alumno",
+          "fecha": "2026-07-27"
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Componentes Semana 1",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Componentes Semana 2",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Paramédico",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-04",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Impresión de Diplomas",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Inscripción Completa",
+          "estimado": 28000,
+          "real": 36000
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-002",
+          "concepto": "Inscripción Semana Individual",
+          "estimado": 15000,
+          "real": 17500
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-003",
+          "concepto": "Inscripción Completa Descuento Colaborador",
+          "estimado": 17000,
+          "real": 10200
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-004",
+          "concepto": "Inscripción Semana Individual Descuento Colaborador",
+          "estimado": 17000,
+          "real": 10750
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-005",
+          "concepto": "Inscripción Completa Descuento Especial",
+          "estimado": 2000,
+          "real": 5502
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Piezas De Módulo Esp8266 12f Wifi Lua Nodemcu Node Mcu Usb",
+          "estimado": 1577.68,
+          "real": 1577.68
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "HC-SR04P",
+          "estimado": 545,
+          "real": 545
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-003",
+          "concepto": "Micro servomotor",
+          "estimado": 428.46,
+          "real": 428.46
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-004",
+          "concepto": "LED difuso 5mm",
+          "estimado": 143,
+          "real": 143
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-005",
+          "concepto": "Resistencia 200 ohm",
+          "estimado": 30,
+          "real": 30
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-006",
+          "concepto": "Buzzer Activo 5V",
+          "estimado": 138,
+          "real": 138
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-007",
+          "concepto": "Push Button",
+          "estimado": 881.5999999999999,
+          "real": 881.5999999999999
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-008",
+          "concepto": "Protoboard mini 400 puntos",
+          "estimado": 312,
+          "real": 312
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-009",
+          "concepto": "Juego de 120 cables de 20cm tipo Dupont",
+          "estimado": 359.6,
+          "real": 448.6
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-010",
+          "concepto": "Pila 9V",
+          "estimado": 519,
+          "real": 519.36
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-011",
+          "concepto": "Broche pila 9V",
+          "estimado": 219.6,
+          "real": 219.6
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Arduino Nano",
+          "estimado": 1028.66,
+          "real": 1028.66
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-002",
+          "concepto": "Sensor ultrasónico",
+          "estimado": 545,
+          "real": 690
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-003",
+          "concepto": "Micro servomotor",
+          "estimado": 1713.84,
+          "real": 1713.84
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-004",
+          "concepto": "Buzzer Activo 5V",
+          "estimado": 138,
+          "real": 138
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-005",
+          "concepto": "Juego de 120 cables de 20cm tipo Dupont",
+          "estimado": 359.6,
+          "real": 359.6
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-006",
+          "concepto": "Pila 9V",
+          "estimado": 519,
+          "real": 519.87
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-007",
+          "concepto": "Filamento PLA colores",
+          "estimado": 475,
+          "real": 475
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-008",
+          "concepto": "Filamento PLA Negro",
+          "estimado": 554.39,
+          "real": 554.39
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-009",
+          "concepto": "Servos extra",
+          "estimado": 0,
+          "real": 592
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-010",
+          "concepto": "Esp32 extra",
+          "estimado": 0,
+          "real": 700
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-011",
+          "concepto": "Arduino Nano Extra",
+          "estimado": 0,
+          "real": 700
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-012",
+          "concepto": "Mini protoboard Extras",
+          "estimado": 0,
+          "real": 169
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Paramédico",
+          "estimado": 5800,
+          "real": 5800
+        },
+        {
+          "codigo": "EGR-04",
+          "subCodigo": "EGR-04-001",
+          "concepto": "Impresión diplomas",
+          "estimado": 200,
+          "real": 168
+        }
+      ],
+      "marketing": [
+        {
+          "codigo": "MKT-01",
+          "redSocial": "Instagram",
+          "concepto": "Primer reel ",
+          "vistasEstimado": 2000,
+          "vistasReal": 3094,
+          "interaccionEstimado": 1000,
+          "interaccionReal": 1468
+        },
+        {
+          "codigo": "MKT-02",
+          "redSocial": "Instagram",
+          "concepto": "Segundo reel",
+          "vistasEstimado": 2500,
+          "vistasReal": 2904,
+          "interaccionEstimado": 1300,
+          "interaccionReal": 1418
+        },
+        {
+          "codigo": "MKT-03",
+          "redSocial": "Instagram",
+          "concepto": "Tercer reel",
+          "vistasEstimado": 2300,
+          "vistasReal": 2526,
+          "interaccionEstimado": 1000,
+          "interaccionReal": 1227
+        },
+        {
+          "codigo": "MKT-04",
+          "redSocial": "Instagram",
+          "concepto": "Cuarto reel",
+          "vistasEstimado": 2100,
+          "vistasReal": 3162,
+          "interaccionEstimado": 1500,
+          "interaccionReal": 1718
+        },
+        {
+          "codigo": "MKT-05",
+          "redSocial": "Instagram",
+          "concepto": "Quinto reel",
+          "vistasEstimado": 2000,
+          "vistasReal": 1838,
+          "interaccionEstimado": 900,
+          "interaccionReal": 925
+        },
+        {
+          "codigo": "MKT-06",
+          "redSocial": "Instagram",
+          "concepto": "Primer Historia",
+          "vistasEstimado": 1000,
+          "vistasReal": 1937,
+          "interaccionEstimado": 1200,
+          "interaccionReal": 1414
+        },
+        {
+          "codigo": "MKT-07",
+          "redSocial": "Instagram",
+          "concepto": "Segunda Historia",
+          "vistasEstimado": 1100,
+          "vistasReal": 2519,
+          "interaccionEstimado": 1500,
+          "interaccionReal": 1666
+        },
+        {
+          "codigo": "MKT-08",
+          "redSocial": "Instagram",
+          "concepto": "Tercera Historia",
+          "vistasEstimado": 2500,
+          "vistasReal": 3806,
+          "interaccionEstimado": 2000,
+          "interaccionReal": 2677
+        },
+        {
+          "codigo": "MKT-09",
+          "redSocial": "Instagram",
+          "concepto": "Cuarta Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": 4182,
+          "interaccionEstimado": 2500,
+          "interaccionReal": 2890
+        },
+        {
+          "codigo": "MKT-10",
+          "redSocial": "Instagram",
+          "concepto": "Quinta Historia",
+          "vistasEstimado": 1000,
+          "vistasReal": 1814,
+          "interaccionEstimado": 800,
+          "interaccionReal": 1171
+        },
+        {
+          "codigo": "MKT-11",
+          "redSocial": "Instagram",
+          "concepto": "Sexta Historia",
+          "vistasEstimado": 1500,
+          "vistasReal": 1517,
+          "interaccionEstimado": 900,
+          "interaccionReal": 1036
+        },
+        {
+          "codigo": "MKT-12",
+          "redSocial": "Instagram",
+          "concepto": "Septima Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": 2676,
+          "interaccionEstimado": 1000,
+          "interaccionReal": 1806
+        },
+        {
+          "codigo": "MKT-13",
+          "redSocial": "Instagram",
+          "concepto": "Octaba Historia",
+          "vistasEstimado": 1000,
+          "vistasReal": 1457,
+          "interaccionEstimado": 700,
+          "interaccionReal": 835
+        },
+        {
+          "codigo": "MKT-14",
+          "redSocial": "Instagram",
+          "concepto": "Novena Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": 2364,
+          "interaccionEstimado": 1000,
+          "interaccionReal": 1571
+        },
+        {
+          "codigo": "MKT-15",
+          "redSocial": "Instagram",
+          "concepto": "Decima Historia",
+          "vistasEstimado": 1500,
+          "vistasReal": 2713,
+          "interaccionEstimado": 1500,
+          "interaccionReal": 1882
+        },
+        {
+          "codigo": "MKT-16",
+          "redSocial": "Instagram",
+          "concepto": "Onceava Historia",
+          "vistasEstimado": 2000,
+          "vistasReal": 2532,
+          "interaccionEstimado": 1400,
+          "interaccionReal": 1621
+        }
+      ]
+    },
+    {
+      "sheet": "RoboRifa",
+      "nombre": "RoboRifa",
+      "categoria": "Proyecto con Recaudación",
+      "inicio": "2026-08-26",
+      "fin": "2026-08-28",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Iker Cossío García",
+      "impactosDirectos": 1500,
+      "ingresos": [
+        {
+          "codigo": "ING-01",
+          "fuente": "Venta boletos",
+          "concepto": "Venta de boletos",
+          "fecha": null
+        },
+        {
+          "codigo": "ING-02",
+          "fuente": "Patrocinio",
+          "concepto": "Uso de nombre",
+          "fecha": null
+        }
+      ],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Premios",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Tarjetas de presentación",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-000",
+          "concepto": "Emisión de 1500 boletos a $50",
+          "estimado": 0,
+          "real": 0
+        },
+        {
+          "codigo": "ING-01",
+          "subCodigo": "ING-01-001",
+          "concepto": "Boletos",
+          "estimado": 75000,
+          "real": null
+        },
+        {
+          "codigo": "ING-02",
+          "subCodigo": "ING-02-001",
+          "concepto": "Uso de nombre patrocinio",
+          "estimado": 2500,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Plancha Dyson / Nintendo Switch 2",
+          "estimado": 9500,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Apple Watch",
+          "estimado": 4124.25,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-003",
+          "concepto": "Airpods 4",
+          "estimado": 2249.25,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-004",
+          "concepto": "Kindle",
+          "estimado": 2099,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-005",
+          "concepto": "JBL Grip",
+          "estimado": 1035,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-006",
+          "concepto": "Tarjeta Starbucks $500 lugar 6 al 10",
+          "estimado": 2500,
+          "real": null
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-007",
+          "concepto": "Premio en efectivo 100 pesos del lugar 10 al 25",
+          "estimado": 1500,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Tarjetas de presentación rifa",
+          "estimado": 636,
+          "real": null
+        }
+      ],
+      "marketing": []
+    },
+    {
+      "sheet": "Home",
+      "nombre": "Home",
+      "categoria": "Competencia",
+      "inicio": "2026-08-01",
+      "fin": "2027-07-30",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Fernando Hernández Cantú",
+      "impactosDirectos": 40,
+      "ingresos": [],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Componentes",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Aproximacion",
+          "concepto": "Envíos aproximación",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Aproximacion",
+          "concepto": "Impuestos aproximación",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Filamento ABS negro",
+          "estimado": 0,
+          "real": 355
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-999",
+          "concepto": "Approx componentes",
+          "estimado": 50000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Approx envío",
+          "estimado": 8000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Approx impuestos",
+          "estimado": 6000,
+          "real": null
+        }
+      ],
+      "marketing": []
+    },
+    {
+      "sheet": "Larc_Open",
+      "nombre": "Larc Open Internacional",
+      "categoria": "Competencia",
+      "inicio": "2026-08-01",
+      "fin": "2027-07-30",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Juan Pablo Gutierrez García",
+      "impactosDirectos": 6,
+      "ingresos": [],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Componentes",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Gastos de Envío",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Fondo Roborregos",
+          "concepto": "Gastos de Impuestos",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Llantas Gorilla 10 cm",
+          "estimado": 1540,
+          "real": 1507.6344
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-002",
+          "concepto": "Cople Llantas",
+          "estimado": 540,
+          "real": 547.7944
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-003",
+          "concepto": "Motores",
+          "estimado": 1916.96,
+          "real": 2827.5858000000003
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-004",
+          "concepto": "Adaptadores motores",
+          "estimado": 278.18,
+          "real": 136.77720000000002
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-007",
+          "concepto": "Drivers",
+          "estimado": 690,
+          "real": 665.889
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-008",
+          "concepto": "KitConector empalme (23)",
+          "estimado": 23,
+          "real": 23
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-009",
+          "concepto": "Regulador servos",
+          "estimado": 85,
+          "real": 85
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-010",
+          "concepto": "VL53L1X",
+          "estimado": 780,
+          "real": 768.729
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-011",
+          "concepto": "QTRX-HD-01A",
+          "estimado": 325,
+          "real": 295.665
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-012",
+          "concepto": "QTRX-MD-08A",
+          "estimado": 840,
+          "real": 834.0323999999999
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-014",
+          "concepto": "I2C Mux",
+          "estimado": 732,
+          "real": 732
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-015",
+          "concepto": "PCA9685",
+          "estimado": 87,
+          "real": 95
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-016",
+          "concepto": "Teensy 4.1",
+          "estimado": 1040,
+          "real": 1014.6880000000001
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-017",
+          "concepto": "Servo Metal",
+          "estimado": 252,
+          "real": 300
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-018",
+          "concepto": "Pila 9V",
+          "estimado": 299,
+          "real": 299
+        },
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-019",
+          "concepto": "Cubre pilas",
+          "estimado": 396.94,
+          "real": 396.94
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Envío gobilda",
+          "estimado": 0,
+          "real": 1543.2856000000002
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Impuestos gobilda",
+          "estimado": 0,
+          "real": 1871.66
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-002",
+          "concepto": "Envío pololu",
+          "estimado": 0,
+          "real": 399.58799999999997
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-003",
+          "concepto": "Envío Unit",
+          "estimado": 0,
+          "real": 145
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-004",
+          "concepto": "Envío Hetpro",
+          "estimado": 0,
+          "real": 1
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-002",
+          "concepto": "Impuestos digikey",
+          "estimado": 0,
+          "real": 340
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-003",
+          "concepto": "Impuestos unit",
+          "estimado": 0,
+          "real": 320
+        }
+      ],
+      "marketing": []
+    },
+    {
+      "sheet": "Larc_VSSS",
+      "nombre": "Larc VSSS",
+      "categoria": "Competencia",
+      "inicio": "2026-08-01",
+      "fin": "2027-07-30",
+      "lugar": "Tec de Monterrey",
+      "responsable": "Iker Cossío García",
+      "impactosDirectos": 8,
+      "ingresos": [],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximacion",
+          "concepto": "Componentes",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Envío",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Impuestos",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 11000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        }
+      ],
+      "marketing": []
+    },
+    {
+      "sheet": "RCJ_Maze",
+      "nombre": "RCJ Maze",
+      "categoria": "Competencia",
+      "inicio": "2026-08-01",
+      "fin": "2027-07-30",
+      "lugar": "Tec de Monterrey",
+      "responsable": null,
+      "impactosDirectos": 5,
+      "ingresos": [],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximacion",
+          "concepto": "Componentes",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Envío",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Impuestos",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 11000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        }
+      ],
+      "marketing": []
+    },
+    {
+      "sheet": "RCJ_Soccer_Vision",
+      "nombre": "RCJ Soccer Vision",
+      "categoria": "Competencia",
+      "inicio": "2026-08-01",
+      "fin": "2027-07-30",
+      "lugar": "Tec de Monterrey",
+      "responsable": null,
+      "impactosDirectos": 5,
+      "ingresos": [],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximacion",
+          "concepto": "Componentes",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Envío",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Impuestos",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 11000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        }
+      ],
+      "marketing": []
+    },
+    {
+      "sheet": "RCJ_Soccer_Infrarred",
+      "nombre": "RCJ Soccer Infrarred",
+      "categoria": "Competencia",
+      "inicio": "2026-08-01",
+      "fin": "2027-07-30",
+      "lugar": "Tec de Monterrey",
+      "responsable": null,
+      "impactosDirectos": 5,
+      "ingresos": [],
+      "egresos": [
+        {
+          "codigo": "EGR-01",
+          "fuente": "Aproximacion",
+          "concepto": "Componentes",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-02",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Envío",
+          "fecha": null
+        },
+        {
+          "codigo": "EGR-03",
+          "fuente": "Aproximacion",
+          "concepto": "Gastos de Impuestos",
+          "fecha": null
+        }
+      ],
+      "desglose": [
+        {
+          "codigo": "EGR-01",
+          "subCodigo": "EGR-01-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 11000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-02",
+          "subCodigo": "EGR-02-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        },
+        {
+          "codigo": "EGR-03",
+          "subCodigo": "EGR-03-001",
+          "concepto": "Presupuesto provisional",
+          "estimado": 2000,
+          "real": null
+        }
+      ],
+      "marketing": []
+    }
+  ]
+}
