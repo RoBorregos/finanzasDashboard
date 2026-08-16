@@ -12,16 +12,23 @@ export const env = createEnv({
         ? z.string()
         : z.string().optional(),
     /**
-     * URL pública de la app. Better Auth la usa para armar callbacks y
-     * redirects; sin ella los deriva del request entrante y en producción
-     * detrás de un proxy pueden salir mal.
+     * URL pública de la app, para los callbacks de OAuth. Normalmente NO hace
+     * falta ponerla: en Vercel se deduce sola de las variables de abajo. Sirve
+     * para forzar un dominio propio (p. ej. finanzas.roborregos.com).
      */
     BETTER_AUTH_URL: z.string().url().optional(),
-    // Opcionales: el login con GitHub solo se registra si ambas están puestas.
-    // Así el proyecto compila y corre sin tener una OAuth app dada de alta.
-    // TODO(auth): volverlas requeridas cuando el flujo de auth quede definido.
+    /** Las inyecta Vercel solo. `PRODUCTION_URL` es el dominio estable del proyecto. */
+    VERCEL_PROJECT_PRODUCTION_URL: z.string().optional(),
+    /** URL específica de ESTE deploy (cambia en cada preview). */
+    VERCEL_URL: z.string().optional(),
+
+    // Proveedores sociales: cada uno se registra solo si su par de credenciales
+    // está completo, así el proyecto arranca sin ninguna OAuth app dada de alta.
+    // TODO(auth): definir cuáles quedan cuando el flujo de auth esté cerrado.
     BETTER_AUTH_GITHUB_CLIENT_ID: z.string().optional(),
     BETTER_AUTH_GITHUB_CLIENT_SECRET: z.string().optional(),
+    BETTER_AUTH_GOOGLE_CLIENT_ID: z.string().optional(),
+    BETTER_AUTH_GOOGLE_CLIENT_SECRET: z.string().optional(),
     /** Supabase pooled (Supavisor, :6543, modo transacción). La usa la app. */
     DATABASE_URL: z.string().url(),
     /** Supabase directa (:5432, modo sesión). Solo `prisma migrate` / `db push`. */
@@ -47,6 +54,10 @@ export const env = createEnv({
   runtimeEnv: {
     BETTER_AUTH_SECRET: process.env.BETTER_AUTH_SECRET,
     BETTER_AUTH_URL: process.env.BETTER_AUTH_URL,
+    VERCEL_PROJECT_PRODUCTION_URL: process.env.VERCEL_PROJECT_PRODUCTION_URL,
+    VERCEL_URL: process.env.VERCEL_URL,
+    BETTER_AUTH_GOOGLE_CLIENT_ID: process.env.BETTER_AUTH_GOOGLE_CLIENT_ID,
+    BETTER_AUTH_GOOGLE_CLIENT_SECRET: process.env.BETTER_AUTH_GOOGLE_CLIENT_SECRET,
     BETTER_AUTH_GITHUB_CLIENT_ID: process.env.BETTER_AUTH_GITHUB_CLIENT_ID,
     BETTER_AUTH_GITHUB_CLIENT_SECRET:
       process.env.BETTER_AUTH_GITHUB_CLIENT_SECRET,

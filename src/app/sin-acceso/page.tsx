@@ -1,12 +1,12 @@
 import { getSession } from "~/server/better-auth/server";
 import { rolDe } from "~/server/auth/permissions";
+import { Boton } from "~/app/_components/ui";
+
+import { BotonSalir } from "./boton-salir";
 
 /**
  * Muro para quien no tiene acceso: sin sesión, o con rol EXTERNO.
  * No muestra ni una cifra, ni siquiera agregada.
- *
- * TODO(auth): aquí va el botón de inicio de sesión / registro cuando el flujo
- * de autenticación esté definido.
  */
 export default async function SinAcceso() {
   const session = await getSession();
@@ -37,12 +37,20 @@ export default async function SinAcceso() {
               cifras, o <code className="text-navy-700">ADMIN</code> para
               capturarlas.
             </p>
+            <div className="mt-6 border-t border-navy-100 pt-4">
+              <BotonSalir />
+            </div>
           </>
         ) : (
-          <p className="mt-3 text-sm text-navy-900/60">
-            El presupuesto de RoBorregos es información interna del equipo.
-            Inicia sesión con tu cuenta para continuar.
-          </p>
+          <>
+            <p className="mt-3 text-sm text-navy-900/60">
+              El presupuesto de RoBorregos es información interna del equipo.
+              Inicia sesión con tu cuenta para continuar.
+            </p>
+            <div className="mt-6">
+              <Boton href="/iniciar-sesion">Iniciar sesión</Boton>
+            </div>
+          </>
         )}
       </div>
     </main>
