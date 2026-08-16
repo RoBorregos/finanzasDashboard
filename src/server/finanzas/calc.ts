@@ -50,7 +50,7 @@ export interface EventoLike {
   marketing: MarketingLike[];
 }
 
-
+//Suave
 export const CERO = new Decimal(0);
 
 /**
