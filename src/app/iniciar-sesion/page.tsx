@@ -20,9 +20,7 @@ export default async function IniciarSesion() {
   const session = await getSession();
   if (session?.user) redirect("/");
 
-  const google = Boolean(
-    env.BETTER_AUTH_GOOGLE_CLIENT_ID && env.BETTER_AUTH_GOOGLE_CLIENT_SECRET,
-  );
+  const google = Boolean(env.GOOGLE_CLIENT_ID && env.GOOGLE_CLIENT_SECRET);
   const github = Boolean(
     env.BETTER_AUTH_GITHUB_CLIENT_ID && env.BETTER_AUTH_GITHUB_CLIENT_SECRET,
   );

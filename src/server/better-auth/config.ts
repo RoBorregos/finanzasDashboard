@@ -40,11 +40,11 @@ function proveedoresSociales() {
           },
         }
       : {}),
-    ...(env.BETTER_AUTH_GOOGLE_CLIENT_ID && env.BETTER_AUTH_GOOGLE_CLIENT_SECRET
+    ...(env.GOOGLE_CLIENT_ID && env.GOOGLE_CLIENT_SECRET
       ? {
           google: {
-            clientId: env.BETTER_AUTH_GOOGLE_CLIENT_ID,
-            clientSecret: env.BETTER_AUTH_GOOGLE_CLIENT_SECRET,
+            clientId: env.GOOGLE_CLIENT_ID,
+            clientSecret: env.GOOGLE_CLIENT_SECRET,
           },
         }
       : {}),
@@ -56,8 +56,12 @@ export const auth = betterAuth({
   database: prismaAdapter(db, {
     provider: "postgresql", // or "sqlite" or "mysql"
   }),
+  // Apagado a propósito: Google es la única puerta de entrada. Encendido, Better
+  // Auth expone `/api/auth/sign-up/email` como endpoint público y cualquiera
+  // puede darse de alta — nace EXTERNO y no ve una sola cifra, pero es una
+  // superficie que no necesitamos.
   emailAndPassword: {
-    enabled: true,
+    enabled: false,
   },
   socialProviders: proveedoresSociales(),
   user: {
